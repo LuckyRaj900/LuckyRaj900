@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Profile preview</title>
+<style>
+body{margin:0;padding:24px;background:#0d1117;color:#e6edf3;font-family:system-ui,sans-serif;transition:background .2s}
+body.light{background:#fff;color:#1f2328}
+.bar{max-width:880px;margin:0 auto 16px;display:flex;gap:8px;flex-wrap:wrap}
+button{padding:8px 14px;border-radius:8px;border:1px solid #888;background:transparent;color:inherit;cursor:pointer}
+.wrap{max-width:880px;margin:0 auto}.wrap.mobile{max-width:390px}
+img{width:100%;height:auto;display:block;margin:0 auto 14px}
+.links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.links a{color:inherit}
+</style></head><body>
+<div class="bar"><button onclick="document.body.classList.toggle('light')">Toggle light / dark</button>
+<button onclick="document.querySelector('.wrap').classList.toggle('mobile')">Toggle mobile width</button></div>
+<div class="wrap">
+<img src="./assets/hero.svg?v=1" alt="Intro"><img src="./assets/about-life.svg?v=1" alt="About">
+<img src="./assets/stack.svg?v=1" alt="Stack"><img src="./assets/id-dashboard.svg?v=1" alt="ID">
+<img src="./assets/connect.svg?v=1" alt="Connect">
+<div class="links"><a href="https://www.linkedin.com/in/lucky-raj-8032b4289/">LinkedIn</a><a href="mailto:piyushrajlucky900@gmail.com">Email</a><a href="https://github.com/LuckyRaj900">GitHub</a></div>
+</div></body></html>
